@@ -1,2 +1,2 @@
 # Portfolio_Project
-Library System using PHP
+Learning Management System using HTML, CSS, Javascript and PHP

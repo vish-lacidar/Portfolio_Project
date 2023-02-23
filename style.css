@@ -1,4 +1,44 @@
-main, body {
+main,
+body {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logincard {
+    background-color: rgb(128, 128, 128, .3);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logincardtitle{
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.inputgroup{
+    overflow: hidden;
+    width: 100%;
+}
+.inputgroup input{
+    display: block;
+    background-color: inherit;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1;
+    margin: 10px;
+    width: 100%;
+}
+.inputgroup input:focus{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1;
+    margin: 10px;
 }

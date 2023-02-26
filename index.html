@@ -1,21 +1,40 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMS Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="logincard">
-        <div class="logincardtitle">
-            Login
+    <section>
+        <div class="form-box">
+            <img src="assets/img/logo_black.png" alt="schoologo" draggable="false">
+            <form action="">
+                <div class="inputgroup">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="inputgroup">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="forget">
+                    <label for="RMCHK"><input type="checkbox" id="RMCHK"> Remember Me</label>
+                    <a href="">Forgot Password?</a>
+                </div>
+                <button>Login</button>
+                <div class="register">
+                    <p>Don't have an account? <a href="">Register Here</a></p>
+                </div>
+            </form>
         </div>
-        <div class="inputgroup">
-            <input type="text" name="username" id="" placeholder="Username">
-            <input type="text" name="username" id="" placeholder="Password">
-        </div>
-        <button class="btn">LOGIN</button>
-    </div>
+    </section>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
